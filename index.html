@@ -26,15 +26,15 @@
         console.log('user\'s home is', home);
         alert('Oh ' + userName + ' how lovely! Must be a pretty cool place if that\'s where you\'re from!');
 
-        var years = prompt('So how long have you lived in ' + home + '?');
-        console.log('user\'s time living in current location is', years);
-        alert(years + 'years is quite some time!');
+        var time = prompt('So how long have you lived in ' + home + '?');
+        console.log('user\'s time living in current location is', time);
+        alert(time + ' is quite some time!');
 
-        var enjoy = prompt('Do you enjoy living in ' + home + '?');
+        var enjoy = confirm('You must love living in ' + home);
         console.log('user\'s satisfaction', enjoy);
         
-        if(enjoy) {alert('That\'s awesome ' + userName + '! I\'m so happy for you!')
-        else {alert('Awww ' + userName + ',that\'s a shame!' 'You should probably move if you\'re unhappy with where you are!')}    
+        if(enjoy) {alert('That\'s awesome ' + userName + '! I\'m so happy for you!')}
+        else{alert('Awww ' + userName + ',that\'s a shame! You should probably move if you\'re unhappy with where you are!')}    
         
     </script>
 
