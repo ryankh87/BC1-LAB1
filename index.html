@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lab 1 Do-Over!</title>
+</head>
+
+<body>
+   
+    <p>Question 1: What's your name?</p>
+    <p>Question 2: Where are you from?</p>
+    <p>Question 3: How long have you lived there?</p>
+    <p>Question 4:Do you enjoy living where you do?</p>
+    <p>Question 5:</p>
+    
+    
+    <script>
+    
+        var userName = prompt('Hi there and welcome! What\'s your name?');
+        console.log('user\'s name is', userName);
+        alert('Pleased to meet you, ' + userName);
+
+        var home = prompt('Where are you from, ' + userName);
+        console.log('user\'s home is', home);
+        alert('Oh ' + userName + ' how lovely! Must be a pretty cool place if that\'s where you\'re from!');
+
+        var years = prompt('So how long have you lived in ' + home + '?');
+        console.log('user\'s time living in current location is', years);
+        alert(years + 'years is quite some time!');
+
+        var enjoy = prompt('Do you enjoy living in ' + home + '?');
+        console.log('user\'s satisfaction', enjoy);
+        
+        if(enjoy) {alert('That\'s awesome ' + userName + '! I\'m so happy for you!')
+        else {alert('Awww ' + userName + ',that\'s a shame!' 'You should probably move if you\'re unhappy with where you are!')}    
+        
+    </script>
+
+
+
+</body>
+</html>
